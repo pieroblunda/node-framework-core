@@ -1,8 +1,9 @@
 {
   "name": "node-framework-core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "PB Node.js core framework",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
     "test": "npm run test"
   },
