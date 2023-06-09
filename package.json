@@ -1,6 +1,6 @@
 {
   "name": "node-framework-core",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "PB Node.js core framework",
   "main": "src/index.js",
   "type": "module",
@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/pieroblunda/node-framework-core/issues"
   },
-  "homepage": "https://github.com/pieroblunda/node-framework-core#readme"
+  "homepage": "https://github.com/pieroblunda/node-framework-core#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.1.4",
+    "mongodb": "^3.6.2",
+    "stylus": "^0.59.0"
+  }
 }

@@ -1,8 +1,8 @@
 'use strict';
-import Framework from '../framework/framework.js';
-import DbClient from './dbclient.js';
 import DotEnv from 'dotenv';
+import DbClient from './dbclient.js';
 import Routes from '../server/routes.js';
+import Framework from '../framework/framework.js';
 
 class Server {
   
