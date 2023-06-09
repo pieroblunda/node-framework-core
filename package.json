@@ -1,6 +1,6 @@
 {
   "name": "node-framework-core",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "PB Node.js core framework",
   "main": "src/index.js",
   "type": "module",
