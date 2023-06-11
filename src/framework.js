@@ -1,12 +1,17 @@
 import Fs from 'fs';
 import Colors from 'colors';
 import Stylus from 'stylus';
+import Tree from './tree.js';
 import { fileURLToPath } from 'url';
 
 class Framework {
   
   static hello() {
     console.log('Hello world');
+  }
+  
+  static init() {
+    Tree.createTree();
   }
   
   static setGlobalsVariables() {
